@@ -1,19 +1,9 @@
-SELECT
-    SUM(price) AS total
-FROM sales;
+-- SELECT  count(*)  FROM sales;
 
-SELECT
-    COUNT(*) as jami_sales
-FROM sales;
 
-SELECT
-    AVG(quantity)
-FROM sales;
+-- SELECT sum(quantity  * price)  FROM sales;
 
-SELECT
-    MAX(price)
-FROM sales;
 
-SELECT
-    MIN(price)
-FROM sales;
+
+SELECT max(quantity)  FROM sales;
+SELECT min(quantity)  FROM sales;
