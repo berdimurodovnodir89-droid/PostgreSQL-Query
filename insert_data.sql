@@ -1,5 +1,5 @@
 INSERT INTO 
-    sales (customer_name, city, product, quantity, price, sale_date) 
+    sales(customer_name, city, product, quantity, price, sale_date) 
 VALUES
     ('Ali', 'Tashkent', 'Laptop', 1, 800.00, '2025-09-01'),
     ('Vali', 'Samarkand', 'Phone', 2, 500.00, '2025-09-02'),

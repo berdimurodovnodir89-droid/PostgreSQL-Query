@@ -1,7 +1,4 @@
--- sales table mavjud uni ochirish
-DROP TABLE IF EXISTS sales;
 
--- sales nomli jadval yaratish
 CREATE TABLE IF NOT EXISTS sales (
     id SERIAL PRIMARY KEY,
     customer_name VARCHAR(50) NOT NULL,
